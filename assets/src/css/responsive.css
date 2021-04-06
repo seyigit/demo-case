@@ -1,0 +1,89 @@
+@media (max-width:1024px){
+    header{
+        background-size:cover!important;
+        background-position:center;
+    }
+    .navbar{
+
+    }
+    .movies-content{
+        width:165px!important;
+
+    }
+    .movies-content img{
+        width:100%;
+    }
+    .swiper-wrapper {
+        margin-left:-110px!important;
+        position:static;
+      }
+    .movie-text{
+        font-size:8px;
+    }
+    .details{
+        padding:5px;
+    }
+    .details-header{
+        display:block;
+        text-align:center;
+    }
+    .movie-details-text{
+        font-size:8px;
+        width:100%;
+        float:left;
+        text-align:center;
+        margin-bottom:5px;
+    }
+    .date{
+        font-size:8px;
+        width:100%;
+        float:left;
+        text-align:center;
+    }
+    .movie-nav button img{
+        width:20px;
+        header:20px;
+    }
+    .sound{
+        right:1rem;
+        top:9rem;
+    }
+    .sign-in-content{
+        display:none;
+    }
+    .container{
+        max-width:330px;
+    }
+    #bar{
+        display:block;
+        margin-left:auto;
+        cursor:pointer;
+    }
+    .gradient-border{
+        display:none;
+
+    }
+    #mobile-menu{
+        display:flex;
+        position:absolute;
+        background:#000;
+        width:180px;
+        height:100vh;
+        z-index:1000;
+        padding-top:90px;
+        padding-left:20px;
+        
+    }
+    #mobile-menu ul {
+        list-style:none;
+        margin:0;
+    }
+    #mobile-menu ul li{
+        width:100%;
+        margin-bottom:8px;
+    }
+    #mobile-menu ul li a{
+        font-size:18px;
+        color:#fff;
+    }
+}
